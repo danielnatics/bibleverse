@@ -42,16 +42,8 @@ nav ul li a {
 /* Header end*/
 
 .sidebar {
-  /* visibility: hidden; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 0; */
   overflow-x: hidden;
   transform: translate3d(-100vw, 0, 0);
-  /* translate: 300px; */
   background-color: blueviolet;
   width: 250px;
   height: calc(100vh - 50px);
@@ -60,7 +52,6 @@ nav ul li a {
 .sidebar ul li {
   list-style: none;
   margin-bottom: 10px;
-  /* line-height: 50px; */
 }
 .sidebar ul li a {
   text-decoration: none;
@@ -228,8 +219,7 @@ footer button .bell {
 .contact-page .form {
   background-color: #fff;
 }
-.contact-page form {
-}
+
 
 .vision {
   visibility: visible;
