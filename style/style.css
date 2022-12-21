@@ -135,7 +135,7 @@ nav ul li a {
   background-color: black;
   position: absolute;
   top: -40%;
-  left: 5%;
+  left: 2%;
   scale: 0.3;
   text-align: center;
   padding: 0 30px 30px;
@@ -146,7 +146,7 @@ nav ul li a {
 
   text-align: center;
   text-decoration: wavy;
-  height: 200px;
+  height: 400px;
   padding: 10px 15px;
 }
 #removepop {
@@ -361,12 +361,16 @@ footer button .bell {
     padding: 0 20px;
     box-sizing: border-box;
     display: flex;
+    margin-left: 10px;
+    margin-left: auto;
   }
   .bod {
-    width: 350px;
+    width: 300px;
+    margin-left: auto;
+    margin-left: auto;
     padding: 0 10px;
     background-color: #5927c4;
-    height: 70px;
+    height: 60px;
     position: fixed;
     bottom: 70px;
     border-radius: 40px;
