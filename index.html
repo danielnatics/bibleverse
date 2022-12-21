@@ -37,6 +37,7 @@
         border: 10px solid black;
       }
       input {
+        text-transform: uppercase;
         width: 400px;
         height: 50px;
         font-size: 1.5rem;
@@ -105,7 +106,7 @@
         <form onsubmit="submit()">
           <input
             type="text"
-            placeholder="User Id: any chapter of the Bible"
+            placeholder="User Id: any first 10 chapter of the Bible"
             id="firstname"
             class="text"
           />
@@ -169,6 +170,13 @@
           name.value == "DANIEL" ||
           name.value == "PSALMS" ||
           name.value == "MATTHEW" ||
+          name.value == "1STSAMUEL" ||
+          name.value == "2NDSAMUEL" ||
+          name.value == "JOB" ||
+          name.value == "PROVERBS" ||
+          name.value == "JOHN" ||
+          name.value == "LUKE" ||
+          name.value == "MARK" ||
           pass.value == 12345678
         ) {
           // alert("Login Successful");
