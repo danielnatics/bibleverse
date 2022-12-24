@@ -11,8 +11,18 @@
     />
 
     <style>
+       *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+          }
       body {
         background-color: #060d1a;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
       }
       #check {
         font-size: 2rem;
@@ -20,22 +30,20 @@
         position: relative;
       }
       .container {
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
         flex-direction: column;
         width: 100%;
+        padding: 0 10px;
       }
       .section {
         line-height: 75px;
-        text-align: center;
+        
         background-color: #316f7d;
         padding: 20px;
         width: 100%;
         border-radius: 15px;
         border: 10px solid black;
-      }
+      } 
       input {
         text-transform: uppercase;
         width: 400px;
